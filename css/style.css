@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.car , .menu{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ul{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+}
+
+h1{
+    font-size: 6rem;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    color: #FFF;
+}
+
+a:hover{
+    color: rgb(255, 55, 0);
+}
+
+.menu{
+    background-image:linear-gradient(rgba(0,0,0 , 0.3) , rgba(0,0,0, 0.3)) , url(../img/Menu.avif);
+    background-size: cover;
+}
+
+.supra{
+    background-image: linear-gradient(rgba(0,0,0 , 0.5) , rgba(0,0,0, 0.5)) , url(../img/Supra.jpg);
+}
+.audi{
+    background-image: linear-gradient(rgba(0,0,0 , 0.5) , rgba(0,0,0, 0.5)) , url(../img/Audi.jpg);
+}
+.tesla{
+    background-image: linear-gradient(rgba(0,0,0 , 0.5) , rgba(0,0,0, 0.5)) , url(../img/Tesla.jpg);
+}
+.mercides{
+    background-image: linear-gradient(rgba(0,0,0 , 0.5) , rgba(0,0,0, 0.5)) , url(../img/mercedes.jpg);
+}
+.mclaren{
+    background-image: linear-gradient(rgba(0,0,0 , 0.5) , rgba(0,0,0, 0.5)) , url(../img/Mclaren.jpg);
+}
+.bugatti{
+    background-image: linear-gradient(rgba(0,0,0 , 0.5) , rgba(0,0,0, 0.5)) , url(../img/Bugatti.jpg);
+}
+.bmw{
+    background-image: linear-gradient(rgba(0,0,0 , 0.5) , rgba(0,0,0, 0.5)) , url(../img/BMW.jpg);
+}
